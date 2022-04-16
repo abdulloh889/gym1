@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Oswald:wght@300&family=Roboto:wght@100;300&display=swap');
+
+.matn{
+    display:flex;
+    position:relative;
+
+  
+}
+video{
+width: auto;
+height: auto;
+}
+.links a{
+    text-decoration: none;
+    margin-right:20px;
+    font:20px Oswald;
+    color:black;
+    padding-botttom:10px;
+}
+.links a:hover{
+    border-bottom:2px solid green;
+    padding-botttom:10px;
+    color:blue;
+}
+
+.navbar{
+    padding-right: 70px;
+}
+.log {
+    text-decoration: none;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color:black;
+    font:20px Oswald;
+    margin-left:200px;
+   
+}
+.log a:hover{
+    color:blue;
+    border-bottom:2px solid green;
+}
+.wrap{
+    position:relative;
+
+
+}
+.wrap--inside{
+    position:absolute;
+    
+    display: flex;
+    flex-direction: column; 
+    background-color:#ddd;
+    text-align: left;
+   
+    margin-top:3px;
+    z-index:-1;
+    height: 0;
+    overflow: hidden;
+    /* transition: all 2s ease; */
+}
+
+.wrap:hover .wrap--inside{
+    height: auto;
+    text-align:justify;
+    color:blue;
+    border-bottom:none;
+}
+.wrap:hover{
+    border-bottom:none;
+}
+.wrap--inside:hover{
+    color:blue;
+    background-color:#ddd;
+}
+nav{
+    background-color: #fff;
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position:fixed;
+    top:0;
+    width:100%;
+    background-color:#fff;
+   z-index:2;
+   box-shadow:0  0 10px 0;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav img{
+height:100px;
+}
+
+section h2{
+padding-top:70px;
+}
+section p{
+    font:25px Oswald;
+}
+.rasm{
+    margin:50px 5%;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+}
+.rasm img{
+    height:400px;
+    
+}
+.rest{
+    text-align: justify;
+    margin-left:20px;
+}
+
+.padding{
+    padding-top:30px 0;
+}
+
+footer{
+    background-color:black;
+ 
+}
+.anchor{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.anchor a{
+    color:#ddd;
+    text-decoration: none;
+    padding:50px 0;
+}
+.anchor a:first-child{
+   font:20px sans-serif;
+    color:blue;
+}
+footer p{
+    color:#ddd;
+    padding:30px  0;
+    text-align:center;
+}

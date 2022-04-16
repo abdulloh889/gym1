@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Indie+Flower&family=Lobster&family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Oswald:wght@300&family=Roboto:wght@100;300&display=swap');
+
+*{
+    margin:0;
+}
+h2{
+    font:25px sans-serif;
+    color:rgba(32, 30, 30, 0.534);
+}
+p{
+    font:15px Oswald;
+}
+ a{
+    text-decoration: none;
+    margin:20px;
+    font:20px Oswald;
+    color:black;
+   }
+ a:hover{
+  
+    color:blue;
+}
+
+.log {
+    text-decoration: none;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color:black;
+    font:20px Oswald;
+    margin-left:200px;
+   
+}
+.log a:hover{
+    color:blue;
+    
+}
+.wrap{
+    position:relative;
+}
+.wrap--inside{
+    position:absolute;
+   
+    display: flex;
+    flex-direction: column; 
+    background-color:#ddd;
+    text-align:justify;
+    
+
+    z-index:-1;
+    height: 0px;
+    overflow: hidden;
+    transition: height 2s ease; 
+}
+
+.wrap:hover .wrap--inside{
+    height: 200px;
+    color:blue;
+    border-bottom:none;
+   
+}
+.wrap:hover{
+    border-bottom:none;
+}
+.wrap--inside:hover{
+    color:blue;
+    background-color:#ddd;
+}
+nav{
+    
+    font-family:Be Vietnam Pro;
+    background-color: #fff;
+     /* opacity:0.5; */
+     display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    position:fixed;
+    top:0;
+    width:100%;
+    background-color:#fff;
+   z-index:2;
+   box-shadow:0  0 10px 0;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+/* ul li{
+    padding:30px 0;
+} */
+nav img{
+    height:100px;
+}
+header{
+    height:100vh;
+    width:100vw;
+    background-image: url(https://www.thetrainingroom.com/getattachment/4b7d4ad6-7b4f-4611-9631-ab299fafda05/Personal-Trainer-Motivation-01.jpgaspx);
+    background-position: center right;
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed; 
+    background-size: cover;
+}
+main{
+    margin:5%;
+
+}
+main h2{
+    margin-top:30px;
+}
+main p{
+    padding-top:15px;
+}
+.flex{
+   
+    justify-content: space-evenly;
+}
+.first, .second{
+    display: flex;
+    margin-top:50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.text{
+    margin-left:50px;
+    text-align: justify;
+}
+.flex img{
+    height:300px;
+}
+
+.margin{
+    margin:5%;
+}
+.video{
+    margin-top:5%;
+   
+    display: flex;
+    justify-content: space-between;
+}
+.bir a{
+    text-align: center;
+    text-decoration: none;
+}
+.bir a img{
+    border-radius:10px;
+}

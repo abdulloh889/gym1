@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate	.css/4.1.1/animate.min.css" />
+
+    <style>
+        .img {
+            width: 70vw;
+            height: 80vh;
+            margin-left: 20vh;
+            position: flex;
+            top: 2px;
+            right: 0px;
+
+        }
+
+        .firstHead {
+            background-color: black;
+            height: 90vh;
+        }
+
+        .headDiv {
+            display: flex;
+            color: white;
+            justify-content: space-around;
+            position: sticky;
+        }
+
+        .navbar {
+            position: sticky;
+            position: fixed;
+            top: 0px;
+            width: 100%;
+        }
+
+        .headDiv img {
+            height: 30px;
+        }
+
+        .headDiv :hover {
+            transform: scale(1.2);
+            color: lightgreen;
+        }
+
+        .mainDiv {
+            background-color: whitesmoke;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .comment {
+            position: fixed;
+            bottom: 0px;
+            left: 0px;
+        }
+
+        .send {
+            background-color: blue;
+        }
+
+        .lessonsDiv {
+            display: flex;
+            justify-content: space-around;
+            font-size: 25px;
+
+        }
+
+        .lessonsDiv a {
+            text-decoration: none;
+            color: darkblue;
+        }
+
+       
+
+        .menuDiv a {
+            text-decoration: none;
+            color: rgb(130, 130, 238);
+
+        }
+
+        .leson {
+            font-family: cursive;
+            margin-top: 15vh;
+            text-align: center;
+            color: rgb(122, 47, 207);
+        }
+
+        .meuleson {
+            margin-left: 400px;
+        }
+
+        .men img {
+            float: left;
+            clear: both;
+            margin: 30px 40px 30px 30px;
+            width: 30vw;
+            height: 60vh;
+           
+        }
+
+        .men {
+            margin-top: 10vh;
+        }
+
+        .bodybuilder {
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+            background-color: gray;
+            padding: 30px;
+        }
+
+        .bodybuilder img {
+            width: 20vw;
+            height: 30vh;
+        }
+        footer{
+            margin-top: 10vh;
+            background-color: black;
+            color: white;
+        }
+
+        footer img{
+            margin:10vh 45vw 7vh;
+        }
+
+        .foot{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .p{
+            color: gray;
+            text-align: center;
+            margin:9vh 40vw 10vh;
+        }
+
+        #bodybuilder{
+
+        }
+
+
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="firstHead">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active img">
+                    <img src="https://avatars.mds.yandex.net/i?id=82a9bb0dbeeb32bc7d422b0a61d65223-5889273-images-thumbs&n=13"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Belive in yourself</h5>
+                        <p>Never Stop</p>
+                    </div>
+                </div>
+                <div class="carousel-item img">
+                    <img src="https://avatars.mds.yandex.net/i?id=d739f59e940e5fee78961198cfc1821a-5676890-images-thumbs&n=13"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Don't lose your focus</h5>
+                        <p>Never late</p>
+                    </div>
+                </div>
+                <div class="carousel-item img">
+                    <img src="https://avatars.mds.yandex.net/i?id=8c6ed4610469d62ee4105caa06eb8923-5905616-images-thumbs&n=13"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Just Do It</h5>
+                        <p>Just let them quit</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <nav>
+            <img src="https://i.pinimg.com/736x/0a/d7/ba/0ad7ba54a19cf98803f08d7265c94b6c.jpg">
+            <div class="links animate__animated animate__flipInX">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="wrap">
+                        <a href="#">Services</a>
+                        <ul class="wrap--inside">
+                            <li><a href="personal training.html">Personal training</a></li>
+                            <li><a href="specialized personal training.html">Specialized personal training</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="togaraklar.html">Classes</a> <!---->
+                    </li>
+                    <li>
+                        <a href="trainers.html">Mentors</a>
+                    </li>
+                    <li>
+                        <a href="mijoz.html">Customer Feedbacks</a>
+                    </li>
+                   <li>
+                        <a href="healthyliving.html" target="_blank">Healthy living</a>
+                    </li>
+                    <li> 
+                         <a href="reg.html" class="log">Login</a>
+                     </li>
+        
+                </ul>
+            </div>
+    
+        </div>
+    
+        </nav>
+
+
+
+        <button type="button" class="btn btn-primary comment" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-bs-whatever="@mdo">Coment</button>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Your Opinion Is Important For Us!!!</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label ">Email </label>
+                                <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message-text" class="col-form-label">Message:</label>
+                            class="form-control" id="message-text">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-secondary send" data-bs-dismiss="modal">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="leson">We are have:</h1>
+        <div class="lessonsDiv">
+            <div class="lessonDiv">
+                <a href="#men's"> Lessons For Men</a>
+            </div>
+            <div>
+                <a href="#women's">Lessons For Women </a>
+            </div>
+            <div>
+                <a href="#children's"> Lessons For Children </a>
+            </div>
+            <div>
+                <a href="#elders"> Lessons For Pensioners</a>
+            </div>
+        </div>
+
+
+
+        <div>
+            <h1 id="men's" class="leson"> Men's Gym Lessons:</h1>
+        </div>
+        <div>
+            <div class="men">
+    
+                    <p>
+
+                        <img src="https://thumbs.gfycat.com/ExcitableOblongFluke-small.gif" alt="">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, quia eius impedit accusamus fuga
+                        vero itaque, autem rerum aspernatur dignissimos voluptatibus ut minima molestiae ipsum eaque cumque
+                        debitis aliquid porro dolor deserunt pariatur. Velit cum tenetur rem blanditiis nihil quibusdam
+                        cupiditate adipisci pariatur aliquam tempora consequatur sunt esse asperiores, sapiente nesciunt
+                        minima officiis nemo! Doloremque neque rerum nihil debitis veritatis atque. Assumenda iure explicabo
+                        voluptatibus sequi, ex facilis quod recusandae accusamus sit voluptatem blanditiis, dignissimos
+                        quam? Quam tempora quia odit distinctio esse placeat possimus. Suscipit magni, at accusamus sunt
+                        itaque aliquid, repellendus explicabo quas sapiente vitae recusandae delectus amet cum vero, est
+                        quia blanditiis laboriosam hic aperiam! Mollitia explicabo exercitationem libero vero et? Eos
+                        voluptatem dolorum corrupti nobis sit consequuntur cum, laboriosam, recusandae sint autem qui
+                        commodi cupiditate magnam nulla ullam pariatur unde, quae harum assumenda esse mollitia? Beatae quos
+                        numquam ducimus reprehenderit iste esse cupiditate. Alias, consequatur? Hic pariatur similique a
+                        officiis, earum, distinctio, beatae rem eos modi aliquam nihil dolorum dolore quisquam quidem.
+                        Eligendi quisquam dolorem eius eaque ratione esse nam ullam repellat, quidem sed distinctio culpa
+                        laborum necessitatibus a ipsum magni architecto illum asperiores accusamus incidunt quo.
+                        Accusantium, inventore molestias labore totam, voluptatibus doloribus vel mollitia necessitatibus
+                        quo perferendis illo ipsum optio provident asperiores praesentium reprehenderit reiciendis
+                        exercitationem? Nihil itaque ducimus blanditiis rerum quisquam beatae inventore consequuntur
+                        sapiente voluptatum, nemo expedita reiciendis aut commodi illum velit doloribus facilis laudantium
+                        laboriosam voluptates fuga, dignissimos voluptatem, veritatis sunt. Totam, illo minus maxime rerum
+                        vitae repellat maiores consequatur dicta voluptate ducimus quidem ut ab deleniti animi dignissimos
+                        labore alias obcaecati incidunt tempora nulla architecto ea, amet magni dolore. Dolore nostrum harum
+                        ab quo quaerat velit hic minus omnis obcaecati neque soluta repellendus, repellat nam. Error, nam
+                        incidunt nostrum, doloribus pariatur recusandae quam harum praesentium impedit quia voluptatibus,
+                        debitis cumque neque.
+                    </p>
+                
+              
+            </div>
+            <br>
+            <div class="bodybuilder">
+                <div> <img
+                        src="https://avatars.mds.yandex.net/i?id=68a888611ad994d1b92cf04df94c7385-5463607-images-thumbs&n=13"
+                        alt=""></div>
+                <div><img
+                        src="https://avatars.mds.yandex.net/i?id=ca41625d7ccfb9dcb41e81a47bfc8830-5869368-images-thumbs&n=13"
+                        alt=""> </div>
+                <div><img
+                        src="https://avatars.mds.yandex.net/i?id=9697711cc08ae9eba3d7e78dfbde5f42-5234135-images-thumbs&n=13"
+                        alt=""> </div>
+
+            </div>
+
+
+
+
+            <h1 id="women's" class="leson">
+                Women
+            </h1>
+
+
+            <div class="men">
+                <p>
+                    <img src="https://c.tenor.com/bhE4rCZBGbEAAAAM/workout-gym.gif" alt="">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, neque nisi. Officia sunt sint
+                    perspiciatis eveniet? Dignissimos saepe atque optio harum id fugit doloremque obcaecati, voluptates
+                    autem impedit repudiandae corrupti laudantium! Nulla, neque. Alias placeat expedita ipsa deleniti
+                    eligendi esse ut porro exercitationem! In laboriosam quos, mollitia ea nostrum, fuga deleniti eum
+                    animi voluptate ipsum esse labore non pariatur ex beatae accusantium. Tenetur similique aliquid
+                    eveniet debitis iusto. Vitae fuga perspiciatis quis sint fugiat nam aut consequatur sequi eum!
+                    Tempora ut amet quasi at, laudantium perferendis voluptas fugit. Odit suscipit magni quam fugit.
+                    Velit voluptate commodi sit. Ipsum vero, tempora non reiciendis at fugiat velit. Cupiditate
+                    necessitatibus pariatur quis aperiam tempore voluptatibus, asperiores reiciendis labore vitae, dicta
+                    ex? Cupiditate, accusantium velit animi laudantium vero temporibus a ad dolorem culpa ipsam eius
+                    labore nobis dicta in adipisci eligendi earum, delectus alias tenetur dignissimos sed excepturi.
+                    Dolores blanditiis unde delectus culpa molestiae. Voluptatibus quisquam excepturi sequi ipsum
+                    laudantium, dolores facere provident perferendis omnis similique, commodi tempore rerum laboriosam
+                    ipsa! Soluta temporibus velit, aliquid impedit expedita nulla minima iure ad nesciunt obcaecati
+                    odio, odit a maiores et illo! Id, aspernatur aperiam? Consequatur id doloremque tempora modi cum
+                    odio veniam. Vitae in ipsa aspernatur non debitis labore ut eius qui est quasi impedit aperiam
+                    tempore, accusantium cumque, dolor culpa, facilis nobis corporis fugiat nemo eum. Quisquam sequi
+                    adipisci nesciunt doloribus rerum recusandae dolores sed aut suscipit minima natus nam consequuntur
+                    debitis consectetur neque, tempore necessitatibus vitae quia ut, illo deserunt. Recusandae nostrum
+                    sint quibusdam ad non quam voluptate, maiores et sapiente! Excepturi, necessitatibus ad? Debitis
+                    labore quibusdam amet ipsa nulla ad, ex quasi, deserunt, impedit nemo quia porro eaque veritatis.
+                    Itaque, quo laborum! Libero nobis eum animi, corrupti quos quam cupiditate laboriosam odit
+                    blanditiis facilis sit repellat beatae consequatur voluptatum ducimus quisquam repudiandae dolorem.
+                </p>
+            </div>
+            <div class="bodybuilder">
+                <div><img
+                        src="https://avatars.mds.yandex.net/i?id=3b2c65949443affa264a4c9fc2292c50-5253062-images-thumbs&n=13"
+                        alt=""></div>
+                <div><img
+                        src=" https://avatars.mds.yandex.net/i?id=1afa08c45f663eea7f811120c3998d29-5231779-images-thumbs&ref=rim&n=33&w=281&h=188"
+                        alt=""></div>
+                <div> <img
+                        src="https://avatars.mds.yandex.net/i?id=2a0000017a192e04b76e84f27dfab002e7e1-4346637-images-thumbs&ref=rim&n=33&w=267&h=188"
+                        alt=""></div>
+            </div>
+
+
+
+
+            <h1 id="children's" class="leson">
+                Children
+            </h1>
+            <div class="men ">
+                <p>
+                    <img src="https://c.tenor.com/3ssld76QGJcAAAAM/curls-gym.gif" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat modi sunt neque pariatur harum eius
+                    iure quidem, sit blanditiis eum et optio magnam fugit officiis accusantium. Vitae, blanditiis quae
+                    similique magni quibusdam maiores asperiores commodi, adipisci consequatur earum placeat itaque
+                    aliquid! Perferendis atque molestiae, iure soluta debitis harum impedit quia molestias. Sapiente
+                    optio dignissimos saepe odio voluptates eius dolorum dolores, vitae non fuga et iusto asperiores
+                    sit, earum, exercitationem velit illum enim id quidem ipsum atque. Atque, voluptatem consectetur
+                    totam rerum perferendis adipisci omnis aut. Corrupti, doloribus obcaecati vero quaerat voluptatem
+                    tenetur eligendi veritatis aperiam saepe ipsam necessitatibus, modi amet blanditiis dolore
+                    laboriosam quos nobis quibusdam numquam sapiente? Quae, praesentium? Perferendis libero molestiae
+                    odit corrupti deleniti quam eum rem iusto consequatur in voluptatem, provident quisquam itaque
+                    delectus. Deserunt dolore consequatur hic obcaecati iure nihil saepe quaerat fugiat esse dolorum cum
+                    provident dicta, quas pariatur ut maxime doloribus eaque alias ullam?</p>
+                </p>
+            </div>
+
+            <div class="bodybuilder" id="bodybuilder">
+                <div><img src="https://avatars.mds.yandex.net/i?id=2a0000017a0b7a43073c3c3ad48930aabd34-4250988-images-thumbs&n=13" alt=""> </div>
+                <div><img src="https://avatars.mds.yandex.net/i?id=bb0c8772f099f16ab30044b9ddc66fcc-5603287-images-thumbs&n=13" alt=""></div>
+                <div><img src="https://avatars.mds.yandex.net/i?id=d421f96ed7db25b46531b2c0c2eaf3d5-4055867-images-thumbs&n=13" alt=""></div>
+            </div>
+
+
+
+            <h1 id="elders" class="leson">
+                Elders
+            </h1>
+
+            <div class="men">
+                <p>
+                    <img src="https://avatars.mds.yandex.net/i?id=5840d5dfe90f58888470dd407e658e6b-4531164-images-thumbs&n=13"
+                        alt="">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem neque nam quos minima,
+                    aspernatur autem cumque vel impedit unde sed id eaque a, veritatis et facere quasi ullam. A, fugit
+                    temporibus voluptates aperiam illum impedit atque dolorem amet natus animi esse fugiat enim
+                    doloribus ut nihil magnam. Voluptates, quia. Ea aliquam ducimus doloremque ipsa dolorem, saepe autem
+                    deserunt, illo corrupti rem, odit est eligendi. Qui nulla eaque necessitatibus minus porro vel est
+                    nihil, minima pariatur libero, sed dolores aliquam magni deserunt officiis, et doloribus ad sit
+                    ratione facilis corporis. Impedit, possimus atque. Praesentium qui nobis error illo consequuntur
+                    repudiandae, unde quis iusto rerum dolorem quod possimus optio, autem eveniet ullam soluta suscipit
+                    corporis earum molestias, alias omnis aspernatur? Consectetur sunt tempore est illum minima
+                    architecto explicabo qui nostrum molestias alias eligendi, nemo accusamus. Illum suscipit quas
+                    accusantium aliquam odit. Nobis quia repudiandae tempora commodi debitis. Explicabo laboriosam
+                    omnis, possimus doloremque eum non a dolor quod, ad minima suscipit quasi dignissimos voluptate
+                    debitis temporibus odio necessitatibus! Animi nam sint earum accusamus, provident consequuntur iste
+                    expedita magni ipsum eos vitae autem necessitatibus rem deserunt rerum voluptas consequatur
+                    quibusdam at perferendis, dolorum fuga tempora dolorem iure est? Doloribus laudantium ipsam nam
+                    sequi aperiam?
+                </p>
+            </div>
+            <div class="bodybuilder">
+                <div><img src="https://avatars.mds.yandex.net/i?id=6af0c184c216a85567deedd1af9b7d46-3693917-images-thumbs&n=13" alt=""></div>
+                <div><img src="https://avatars.mds.yandex.net/i?id=dbcc6969f15486178b477add601d5ddf-5221158-images-thumbs&n=13" alt=""></div>
+                <div><img src="https://avatars.mds.yandex.net/i?id=fcefbc4a343a05b7877c96db703c68d0-5137308-images-thumbs&n=13" alt=""></div>
+            </div>
+
+            <footer>
+                <div>
+                    <div><img src="https://c.tenor.com/tjwL1uXxYgAAAAAM/fitness-pego-pego.gif" alt=""></div>
+                </div>
+                <div class="foot">
+                    <div>Contoct With Us</div>
+                    <div>Contact With Us</div>
+                    <div>Contact With Us</div>
+                </div>
+                <p class="p">Copyright 2021</p>
+            </footer>
+
+
+
+
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+                crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijozlarimiz fikri</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+        .back {
+            background: linear-gradient(90deg, rgb(255, 255, 255), rgb(165, 183, 255));
+        }
+
+        .fikr1 {
+            border: solid 1px lightblue;
+            padding: 5px;
+            margin: 10px;
+            box-shadow: 10px 5px 20px 2px rgb(31, 104, 128);
+            transition: 0.s;
+        }
+        .fl{
+            display: flex;
+            justify-content: flex-start;
+        }
+        .fl2{
+            display: flex;
+            justify-content: flex-start;
+        }
+        img{
+            height: 170px;
+            width: 400px;
+        }
+        .fl h4{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: rgb(4, 130, 172);
+            font-size: 20px;
+        }
+        .fl2 h4{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: rgb(4, 130, 172);
+            font-size: 20px;
+        }
+        .ong{
+            position: fixed;
+            top: 10px;
+            right: 20px;
+            width: 400px;
+            height: 500px;
+            background-color: hsla(0, 0%, 0%, 0.35);
+            padding: 20px;
+            border-radius: 20px;
+            border: solid 2px darkblue;
+        }
+        .ong:hover{
+            background-color: darkgray;
+        }
+        .fikr1:hover{
+            background-color: rgb(202, 202, 255);
+        }
+        .logo-img{
+            position: relative;
+            top: 100px;
+            left: 280px;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body class="back">
+    <div class="ong">
+        <h1>Izoh qoldirmoqchimisiz?</h1>
+        <h4>Unda marhamat!</h4>
+        <label for="ism"> Ismingizni yozing:</label><br>
+        <input type="text" id="ism" name="ism" placeholder="Ismingiz..."><br>
+        <label for="izoh"> Izohingizni qoldiring:</label><br>
+        <textarea name="izohlar" id="izoh" cols="45" rows="10" placeholder="Izohingiz..."></textarea>
+        <a href="index.html">
+            <img src="https://i.pinimg.com/736x/0a/d7/ba/0ad7ba54a19cf98803f08d7265c94b6c.jpg" alt="logo" class="logo-img">
+        </a>
+    </div>
+    <div class="fl">
+        <div class="card fikr1" style="width: 18rem;">
+            <img src="images/team1.jpg" class="card-img-top" alt="Bu birinchi izoh">
+           
+            <div class="card-body">
+                <h4>Zarnigor Omonova</h4>
+                <p class="card-text">Hammaga salom, bunaqa mehribon sport oilasini ko'rmagan edim, murabbiylarga gap
+                    yo'q! Eng zo'ri shun yerda!!!</p>
+            </div>
+        </div>
+
+        <div class="card fikr1" style="width: 18rem;">
+            <img src="images/team2.jpg" class="card-img-top" alt="Bu ikkinchi izoh">
+            <div class="card-body">
+                <h4>Bekzod Haqqiyev</h4>
+                <p class="card-text">Hammaga salom, bunaqa mehribon sport oilasini ko'rmagan edim, murabbiylarga gap
+                    yo'q! Eng zo'ri shun yerda!!!</p>
+            </div>
+        </div>
+        <div class="card fikr1" style="width: 18rem;">
+            <img src="images/tem5.jpg" class="card-img-top" alt="Bu ikkinchi izoh">
+            <div class="card-body">
+                <h4>Asila Yaxyoyeva</h4>
+                <p class="card-text">Hammaga salom, bunaqa mehribon sport oilasini ko'rmagan edim, murabbiylarga gap
+                    yo'q! Eng zo'ri shun yerda!!!</p>
+            </div>
+        </div>
+    </div>
+    <div class="fl2">
+        <div class="card fikr1" style="width: 18rem;">
+            <img src="images/team3.jpg" class="card-img-top" alt="Bu ikkinchi izoh">
+            <div class="card-body">
+                <h4>Shaxzod Malikov</h4>
+                <p class="card-text">Hammaga salom, bunaqa mehribon sport oilasini ko'rmagan edim, murabbiylarga gap
+                    yo'q! Eng zo'ri shun yerda!!!</p>
+            </div>
+        </div>
+        <div class="card fikr1" style="width: 18rem;">
+            <img src="images/team4.jpg" class="card-img-top" alt="Bu ikkinchi izoh">
+            <div class="card-body">
+                <h4>Bexruz Ahmadov</h4>
+                <p class="card-text">Hammaga salom, bunaqa mehribon sport oilasini ko'rmagan edim, murabbiylarga gap
+                    yo'q! Eng zo'ri shun yerda!!!</p>
+            </div>
+        </div>
+        <div class="card fikr1" style="width: 18rem;">
+            <img src="images/team6.jpg" class="card-img-top" alt="Bu ikkinchi izoh">
+            <div class="card-body">
+                <h4>Durbek G'oyipov</h4>
+                <p class="card-text">Hammaga salom, bunaqa mehribon sport oilasini ko'rmagan edim, murabbiylarga gap
+                    yo'q! Eng zo'ri shun yerda!!!</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
